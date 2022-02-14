@@ -49,5 +49,6 @@ If everything is configured properly you can now access any service running on `
 * CG-NAT: https://www.sidn.nl/en/news-and-blogs/cgnat-frustrates-all-ip-address-based-technologies
 * WireGuard: https://www.wireguard.com/
 * Point to Site topolgy (Routing): https://www.procustodibus.com/blog/2021/04/wireguard-point-to-site-routing/
+* Point to Site topolgy (Masquerading): https://www.procustodibus.com/blog/2020/11/wireguard-point-to-site-config/
 * Point to Site topology (Port Forwarding): https://www.procustodibus.com/blog/2021/04/wireguard-point-to-site-port-forwarding/
 * Point to Site topology (Site Gateway): https://www.procustodibus.com/blog/2021/04/wireguard-point-to-site-gateway/
