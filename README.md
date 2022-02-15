@@ -12,18 +12,18 @@ We will use a VPS to run a VPN Server that is publicly accessible, then we can c
 
     Ubuntu / Debian :
     ```
-    $ sudo apt install wireguard
+    sudo apt install wireguard
     ```
     Arch :
     ```
-    $ sudo pacman -S wireguard-tools
+    sudo pacman -S wireguard-tools
     ```
 
     if you've chosen a different distro you can always seek guidence from WireGuard's [website](https://www.wireguard.com/install/ "https://www.wireguard.com/install/").
 
 * then, generate public and private keys using this command:
     ```
-    $ wg genkey | tee privatekey | wg pubkey > publickey
+    wg genkey | tee privatekey | wg pubkey > publickey
     ```
     you will have those keys generated in the current folder (directory).
 * Use `middle_server/wg1.conf` file as a template and copy it to `/etc/wireguard` (may require root privileges).
@@ -42,7 +42,7 @@ We will use a VPS to run a VPN Server that is publicly accessible, then we can c
 ## Connection
 After configuring the machines you can now establish a connection using this command:
 ```
-$ sudo wg-quick up wg1
+sudo wg-quick up wg1
 ```
 (if you are using windows press the `Activate` button on the WireGuard application).
 
